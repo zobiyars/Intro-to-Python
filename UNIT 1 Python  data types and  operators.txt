@@ -1,0 +1,41 @@
+Data types:--
+2 types of data.
+- int
+- float
+
+int includes the whole no. values which don't have any decimal points.
+  e.g: 2, 56, -4, 261
+
+float includes the decimal point values.
+  e.g: 23.6, 263.0, 4.1, 0.3
+
+Arithematic Operators:--
+use to perform mathematical calculations
++ addition
+- subtraction
+  multiplication
+  exponentiation
+/ division
+// integer division
+% modulo
+
+Operators precedence:---
+precedence means which operation python performs when there are multiple operators in one expression.
+so, python follows specific order of precedence:
+from highest to lowest..
+highest----- exponentiation
+             negation-- making one no. negative
+             multiplication, division, integer division, modulo
+lowest------ addition, subtraction
+
+Errors:----
+2 types of errors
+syntax error:
+this error occurs when u don't follow python writing rules.
+  e.g print (" Hello"
+         in this closing ) is missing.
+
+semantics error:
+this error occurs when the code is written correctly, but the meaning/result is wrong.
+   e.g you want to calculate 10 + 5 but accidentally write 10 - 5,
+       so, python runs the code but did not give the result you want.  
