@@ -1,0 +1,53 @@
+Variable:
+A variable is a name used to store a value.
+
+Assignment Statement:
+An assignment statement is used to give a value to a variable.The = sign is called the assignment operator.
+
+For example type the command :
+a=3.45
+This command assigns the value 3.45 to the variable named a. until you give the different value to the variable a.
+
+Example using some arithmatic operations:
+a=7.32
+b=a+5
+b would result in 12.32 being displayed on the screen.
+
+another one,
+a=7
+b=a*5
+b would result in 35 being displayed on the screen.
+
+Some important points:-
+
+-In programming, we associate names with values so that we can remember and use them later, these names are called variables. The term variable comes from the fact that values that are bound to variables can change throughout computation. An assignment statement associates the name to the left of the symbol = with the value denoted by the expression on the right of =. 
+
+-A variable name should tell us what is stored inside it.
+For example:
+side = 5
+area = 25
+These names are easy to understand.
+
+But:
+x = 5
+y = 25
+Here, we don't know what x and y mean.
+
+-A variable name can contain: letters, numbers and underscore,but there are some rules:
+   1- Cannot start with a no. 
+   2- Uppercase and lowercase are different, case sensitive.
+   3- Dont use python keywords {if, for, while, class}, as a variable name.
+
+Difference between expressions and assignments:
+An expression is something Python calculates to get a value.
+e.g:
+side+3, suppose side=2
+then python calculates
+2+3
+we get,
+5
+
+An assignment is an instruction that stores a value in a variable.
+e.g:
+side=2,
+this means store a value 2 in a variable named side.
