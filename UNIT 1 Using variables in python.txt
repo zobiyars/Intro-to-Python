@@ -1,0 +1,42 @@
+-user input:-
+for taking user input, use funtion input()
+e.g: 
+    your_school = input("What school do you attend?")
+
+input() always gives you a string, even if the user types a number.
+So, if you want to do calculations, convert the input.
+e.g: 
+
+current_year = int(input("What is the current year?"))
+grad_year = int(input("What year will you graduate?"))
+
+year_difference = grad_year - current_year
+
+print("You will graduate in", year_difference, "years.")
+
+-print funtion:-
+The print function is a Python instruction that will output variable values and results to the computer screen.
+e,g:
+z=1.45
+print(z)
+the print function outputs the value of the variable z to the screen.
+another one,
+temperature=30
+print('Temperature outside = ', temperature)
+this prints Temperature outside = 30 to the screen.
+
+-python interpreter:-
+Python interpreter simply means the program(software) that reads and runs your Python code.
+Any Python interpreter can be used as a calculator to perform mathematical calculations.
+e.g:
+weight_initial:53
+weight_after:43
+weight_difference: weight_initial- weight_after
+weight_difference: 10
+
+print('weight_difference:', weight_difference)
+
+
+
+
+
